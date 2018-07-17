@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # open vid
-cap = cv2.VideoCapture('barca_vs_real.mp4')
+cap = cv2.VideoCapture('<INSERT YOUR VIDEO HERE>.mp4')
 
 # check if vid opened...
 if not cap.isOpened():
